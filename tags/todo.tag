@@ -1,5 +1,5 @@
 <todo>
-	<h3>Riot JS Todo</h3>
+	<h3>My Riot Todo List</h3>
 	Task: <input type="text" id="fieldName">
 	<button onclick={add}>Add a Task</button>
 	<ul>
