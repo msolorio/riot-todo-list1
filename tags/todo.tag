@@ -1,12 +1,15 @@
 <todo>
-	<h3>Handy Dandy To Do List</h3>
-	<input type="text" name="newTask">
-	<span onclick={printTask}>+</span>
-	<ul name="taskList"></ul>
+	Task <input type="text" id="fieldName">
+	<button onclick={add}>Add a Task</button>
+	<ul>
+		<li each={inp in inputs}>{inp}</li>
+	</ul>
 
 	<script>
-		printTask() {
-			this.taskList.push(newTask.value);
+		this.inputs = [];
+
+		add() {
+			this.inputs.push(fieldName.value)
 		}
 	</script>
 </todo>
