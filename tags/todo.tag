@@ -6,11 +6,7 @@
 
 	<script>
 		printTask() {
-			var newVal = this.newTask.value;
-			var node = document.createElement("LI"); 
-			var textnode = document.createTextNode(newVal);
-			node.appendChild(textnode);
-			this.taskList.appendChild(node);
+			this.taskList.push(newTask.value);
 		}
 	</script>
 </todo>
