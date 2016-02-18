@@ -10,12 +10,12 @@
 		this.inputs = [];
 
 		add() {
-			this.inputs.push(fieldName.value)
-			fieldName.value = ''
+			this.inputs.push(fieldName.value);
+			fieldName.value = '';
 		}
 
 		remove(e) {
-			this.inputs.splice(this.inputs.indexOf(e.item.inp), 1)
+			this.inputs.splice(this.inputs.indexOf(e.item.inp), 1);
 		}
 	</script>
 </todo>
