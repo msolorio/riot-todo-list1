@@ -1,4 +1,4 @@
-riot.tag2('todo', 'Task <input type="text" id="fieldName"> <button onclick="{add}">Add a Task</button> <ul> <li each="{inp in inputs}">{inp} &nbsp;<span onclick="{remove}">-</span></li> </ul>', '', '', function(opts) {
+riot.tag2('todo', '<h3>Riot JS Todo</h3> Task: <input type="text" id="fieldName"> <button onclick="{add}">Add a Task</button> <ul> <li each="{inp in inputs}">{inp} &nbsp;<span onclick="{remove}">-</span></li> </ul>', '', '', function(opts) {
 		this.inputs = [];
 
 		this.add = function() {
